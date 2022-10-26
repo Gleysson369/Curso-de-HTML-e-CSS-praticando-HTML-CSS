@@ -1,0 +1,147 @@
+:root{
+    --corDeFundo: #00030C;
+    --corDeLetra: white;
+    --corDeLetraCinza: #b4b4b4;
+    --botaoAzul: #167BF7;
+    --fonte-principal: 'inter';
+}
+
+body {
+    background: var(--corDeFundo);
+    font-family: var(--fonte-principal);
+    color: var(--corDeLetra);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.comboPlus{
+    background-image: url("images/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.butttonBlue {
+    background-color: var(--botaoAzul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--corDeLetra);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.button{
+    background-color: transparent;
+    color: var(--corDeLetra);
+    border: 2px solid var(--corDeLetra);
+    padding: 1em;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.conteudoEscrito {
+    color: var(--corDeLetra);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.conteudoEscrito2 {
+    color: var(--corDeLetraCinza);
+    font-size: 12px;
+}
+
+.imgCombo {
+    margin: 1em 0 2em 0;
+}
+
+.todoConteudo {
+    margin: 0 6em;
+}
+
+.conteiner2 {
+    background-image: none;
+}
+
+.contextoSecundario{
+    align-items: center;
+    text-align: left;
+    display: grid;
+    
+}
+
+.imagemPlataformas{
+    margin: 0 6em;
+}
+
+.conteudo2 {
+    font-size: 48px;
+    margin: 8px;
+}
+
+
+.second2 {
+ margin-left: 1em;
+}
+
+.contextoSecundario .butttonBlue {
+    
+    display: inline-block;
+    width: 9em;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 1em;
+
+}
+
+.imagesTelas{
+
+    margin-left: 7em;
+}
+
+.conteudoFinal{
+    text-align: center;
+}
+
+
+.tabelas{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3%;
+    list-style-type: none;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodapeTexto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
